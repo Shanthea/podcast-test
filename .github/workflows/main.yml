@@ -18,7 +18,7 @@ jobs:
        run: python feed.py
      - name: Push Repo
        run: |
-         git config use.name Shanthea Rolle
+         git config user.name Shanthea Rolle
          git config user.email github-actions@github.com
          git add .
          git commit -m "Modified Feed"
